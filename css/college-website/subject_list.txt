@@ -1,0 +1,30 @@
+
+
+
+
+
+						subject_list.html
+
+
+
+		<html>
+		    <head>
+		        <title>
+		Subject list        
+		        </title>
+		    </head>
+		    <body>
+		        <ul>
+		            <li>English</li>
+		            <li>Mathematics</li>
+		            <li>Physics</li>
+		            <li>Chemistry</li>
+		            <li>Biology</li>
+		            <li>Computer science</li>
+		            <li>Electronics</li>
+		            <li>Marathi</li>
+		            <li>Geography</li>
+		            <li>I.T.</li>
+		        </ul>
+		    </body>
+		</html>

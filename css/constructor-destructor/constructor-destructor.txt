@@ -1,0 +1,45 @@
+
+
+
+
+
+						C++ program for constructor and destructor
+
+
+
+		#include<iostream.h>
+		#include<conio.h>
+		class ratio
+		{
+		    public:
+		        ratio()
+		        {
+		            cout<<"\nObject is born.";
+		        }
+		        ~ratio()
+		        {
+		            cout<<"\nObject dies.";
+		        }
+		        void ratio_x()
+		        {
+		            cout<<"\nNow 'x' is alive.";
+		        }
+		};
+
+		void main()
+		{
+ 		   cout<<"\n";
+ 		   ratio object;
+		    object.ratio_x();
+		    getch();
+		}
+		
+		---------------------------------OUTPUT---------------------------------
+
+		
+		Object is born.
+		Now 'x' is alive.
+		Object dies.
+
+		Object is born.
+		Now 'x' is alive.

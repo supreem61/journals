@@ -1,0 +1,48 @@
+
+
+
+
+
+						home.html
+
+
+
+		<html>
+		    <head>
+		        <title>
+		College Website
+		        </title>
+		    </head>
+		    <body bgcolor="gray">
+		        <font face="Verdana">
+		            <h1 align="center">
+		Yashwantrao Mohite College-Pune
+		            </h1>
+		        </font>
+		        <h3 align="right">
+		Accredited by N.A.A.C in 2010
+		        </h3>
+		        <hr height=2 color="black">
+		        <font color="white" face="Arial" size="5">
+		            <p align="justify">
+		Yashwantrao Mohite College is a reputed college, popularly known as Y.M.&nbsp;College.
+		It is located in Erandawane, that is Pune-38. It was established in 1964 by the
+		honorable Dr.&nbsp;Patangrao&nbsp;Kadam.
+		            </p>
+		        </font>
+		        <font color="aqua" face="Arial" size="4">
+		            <p align="center">
+		Y.M.&nbsp;College has a vast campus which is maintained very nicely. The laboratories
+		are well equipped and the library has a rich collection of books, journals, CD's, etc.
+		            </p>
+		        </font>
+		        <font color="yellow" face="Arial" size="3">
+		            <p align="right">
+		Vocational <b><a href="subject_list.html">subjects</a></b> like electronics and
+		computer science are also available. Separate laboratories for vocational subjects are
+		provided. The teachers here are well experienced and well qualified and highly
+		co-operative. The non-teaching staff is also very helpful.
+		            </p>
+		        </font>
+		    </body>
+		</html>

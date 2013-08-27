@@ -1,0 +1,40 @@
+
+
+
+
+
+						C++ program for swap function using pass-by-reference
+
+
+
+		#include<iostream.h>
+		#include<conio.h>
+
+		void swap(int &a, int &b)
+		{
+		    int tmp=b;
+		    tmp=b;
+		    b=a;
+		    a=tmp;
+		}
+
+		void main()
+		{
+		    clrscr();
+		    int num1, num2;
+		    cout<<"Enter first number :";
+		    cin>>num1;
+		    cout<<"Enter second number:";
+		    cin>>num2;
+		    swap(num1, num2)
+		    cout<<"\nFirst number is :"<<num1;
+		    cout<<"\nSecond number is:"<<num2;
+		    getch();
+		}
+
+		---------------------------------OUTPUT---------------------------------
+		Enter first number :5
+		Enter second number:3
+
+		First number is :3
+		Second number is:5
