@@ -1,0 +1,54 @@
+
+
+
+
+
+						C++ program for complex number addition
+
+
+
+		#include<iostream.h>
+		#include<conio.h>
+
+		class complex
+		{
+		    private:
+		        int real, img;
+		    public:
+		        complex(complex a, complex b)
+		        {
+		            real=a.real + b.real;
+		            img=a.img + b.img;
+		        }
+		        complex(float a, float b)
+		        {
+		            real=a;
+		            img=b;
+		        }
+		        void show()
+		        {
+		            cout<<real<<" + "<<img<<"i";
+		        }
+		};
+
+		void main()
+		{
+		        clrscr();
+		        complex obj1(2,3);
+		        complex obj2(4,5);
+		        complex obj3(obj1, obj2);
+        
+		        cout<<"First number  : ";
+		        obj1.show();
+ 		       cout<<"\nSecond number : ";
+ 		       obj2.show();
+		        cout<<"\nAddition is   : ";
+ 		       obj3.show();
+        
+		        getch();
+		}
+
+		---------------------------------OUTPUT----------------------
+		First number  : 2 + 3i
+		Second number : 4 + 5i
+		Addition is   : 6 + 8i
