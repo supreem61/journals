@@ -1,0 +1,47 @@
+
+
+
+
+
+		class result: public sports , public test
+		{
+		    public:
+		        void total()
+		        {
+		            cout<<"\nRoll number: "<<get_roll_number();
+		            cout<<"\nSubject 1  : "<<sub1;
+		            cout<<"\nSubject 2  : "<<sub2;
+		            cout<<"\nSports     : "<<sports_marks;
+		            cout<<"\nTotal marks: "<<(sub1 + sub2 + sports_marks);
+		        }
+		};
+
+		void main()
+		{
+		    clrscr();
+		    result obj;
+    
+		    cout<<"Enter roll number: ";
+		    obj.set_roll_number();
+		    cout<<"Enter marks for first subject : ";
+		    obj.set_marks_1();
+		    cout<<"Enter marks for second subject: ";
+		    obj.set_marks_2();
+		    cout<<"Enter sports marks: ";
+		    obj.weightage();
+		    obj.total();
+    
+		    getch();
+		}
+
+		---------------------------------OUTPUT---------------------------------
+		Enter roll number: 01
+		Enter marks for first subject : 89
+		Enter marks for second subject: 60
+		Enter sports marks: 70
+
+		Roll number: 1
+		Subject 1  : 89
+		Subject 2  : 60
+		Sports     : 70
+		Total marks: 219

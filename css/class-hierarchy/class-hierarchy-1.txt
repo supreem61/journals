@@ -1,0 +1,52 @@
+
+
+
+
+
+		C++ program implementing circle class
+
+
+
+		#include<iostream.h>
+		#include<conio.h>
+
+		class student
+		{
+		    private:
+		        int roll_number;
+		    public:
+		        void set_roll_number()
+		        {
+		            cin>>roll_number;
+		        }
+		        void get_roll_number()
+		        {
+		            return roll_number;
+		        }
+		};
+
+		class test: public student
+		{
+		    protected:
+		        int sub1, sub2;
+		    public:
+		        void set_marks_1()
+		        {
+		            cin>>sub1;
+		        }
+		        void set_marks_2()
+		        {
+		            cin>>sub2;
+		        }
+		};
+
+		class sports
+		{
+		    protected:
+		        int sports_marks;
+		    public:
+		        void weightage()
+		        {
+		            cin>>sports_marks;
+		        }
+		};
