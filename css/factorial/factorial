@@ -1,0 +1,14 @@
+Public Class Form1
+	Private Sub Button1_Click(ByVal sender As System.Object,
+	ByVal e As System.EventArgs) Handles Button1.Click
+		Dim fact As Integer
+		Dim num As Integer
+		num = 1
+		fact = 1
+		Do
+			fact = fact * num
+			num = num + 1
+		Loop While num <= Val(InputBox.Text)
+		OutputBox.Text = fact
+	End Sub
+End Class

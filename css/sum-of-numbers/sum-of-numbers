@@ -1,0 +1,19 @@
+Public Class Form1
+	Private Sub Button1_Click(ByVal sender As System.Object,
+	ByVal e As System.EventArgs) Handles Button1.Click
+		Dim sum As Integer
+		Dim count As Integer
+		sum = 0
+		count = 0
+		Do
+			sum = sum + count
+			count = count - 1
+		Loop While (count >= 0)
+		Label1.Text = sum
+	End Sub
+
+	Private Sub Button2_Click(ByVal sender As System.Object,
+	ByVal e As System.EventArgs) Handles Button2.Click
+		Label1.Text = ""
+	End Sub
+End Class
